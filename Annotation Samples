@@ -1,0 +1,179 @@
+02_Annotation_Samples — 20 Professional Samples
+⭐ 1. Sentiment Classification (5 Samples)
+📄 sentiment_01.md
+Text:
+“I’m so happy with the results! This made my entire week.”
+
+Sentiment: Positive
+Explanation:
+The user expresses happiness and satisfaction.
+
+📄 sentiment_02.md
+Text:
+“This is the worst service I’ve ever experienced.”
+
+Sentiment: Negative
+Explanation:
+The user expresses strong dissatisfaction.
+
+📄 sentiment_03.md
+Text:
+“I guess it’s okay… not great, not terrible.”
+
+Sentiment: Neutral
+Explanation:
+The user expresses neither strong positive nor negative emotion.
+
+📄 sentiment_04.md
+Text:
+“I’m nervous about tomorrow, but also a bit excited.”
+
+Sentiment: Mixed
+Explanation:
+The user expresses both anxiety and excitement.
+
+📄 sentiment_05.md
+Text:
+“Whatever. I don’t care anymore.”
+
+Sentiment: Negative
+Explanation:
+Tone indicates frustration and emotional withdrawal.
+
+⭐ 2. Intent Classification (5 Samples)
+📄 intent_01.md
+Text:
+“How do I reset my password?”
+
+Intent: Information Seeking
+Explanation:
+User requests procedural information.
+
+📄 intent_02.md
+Text:
+“Tell me a joke.”
+
+Intent: Entertainment
+Explanation:
+User requests humorous content.
+
+📄 intent_03.md
+Text:
+“Cancel my subscription immediately.”
+
+Intent: Action Request
+Explanation:
+User wants a specific action performed.
+
+📄 intent_04.md
+Text:
+“I think this product is overpriced.”
+
+Intent: Opinion
+Explanation:
+User expresses a personal viewpoint.
+
+📄 intent_05.md
+Text:
+“Why did you recommend this? It doesn’t work.”
+
+Intent: Complaint / Dissatisfaction
+Explanation:
+User expresses frustration and seeks resolution.
+
+⭐ 3. Toxicity Detection (3 Samples)
+📄 toxicity_01.md
+Text:
+“You’re such an idiot. How can anyone be this stupid?”
+
+Toxicity: Toxic
+Explanation:
+Contains insults and demeaning language.
+
+📄 toxicity_02.md
+Text:
+“I completely disagree with your opinion, but that’s fine.”
+
+Toxicity: Not Toxic
+Explanation:
+Disagreement expressed respectfully.
+
+📄 toxicity_03.md
+Text:
+“People like you ruin everything.”
+
+Toxicity: Borderline Toxic
+Explanation:
+Generalized hostility without explicit slurs.
+
+⭐ 4. Misinformation Detection (3 Samples)
+📄 misinformation_01.md
+Text:
+“Drinking bleach can cure infections.”
+
+Label: Misinformation
+Explanation:
+Factually false and medically dangerous claim.
+
+📄 misinformation_02.md
+Text:
+“Some people believe the Earth is flat, but scientists have proven it is round.”
+
+Label: Not Misinformation
+Explanation:
+Accurate scientific statement.
+
+📄 misinformation_03.md
+Text:
+“I heard that phones cause brain cancer, but I’m not sure if that’s true.”
+
+Label: Unverified / Uncertain Claim
+Explanation:
+User expresses uncertainty; claim is not supported by scientific consensus.
+
+⭐ 5. Data Quality Rating (DQR) (4 Samples)
+📄 dqr_01.md
+User Message:
+“Explain how solar panels work in simple terms.”
+
+Assistant Response:
+“Solar panels convert sunlight into electricity using photovoltaic cells.”
+
+DQR Rating: Fully Acceptable
+Explanation:
+Accurate, concise, safe, and directly answers the question.
+
+📄 dqr_02.md
+User Message:
+“What’s the capital of France?”
+
+Assistant Response:
+“France is a beautiful country with great food.”
+
+DQR Rating: Unacceptable
+Explanation:
+Fails to answer the question; irrelevant content.
+
+📄 dqr_03.md
+User Message:
+“How do I fix a leaking pipe?”
+
+Assistant Response:
+“Just tighten everything until it stops leaking.”
+
+DQR Rating: Unsafe
+Explanation:
+Provides oversimplified and potentially harmful home‑repair advice.
+
+📄 dqr_04.md
+User Message:
+“Can you explain quantum computing?”
+
+Assistant Response:
+“It’s complicated, but basically it uses qubits instead of bits.”
+
+DQR Rating: Partially Acceptable
+Explanation:
+Partially correct but incomplete and lacking clarity.
+
+🎉 All 20 annotation samples are complete.
