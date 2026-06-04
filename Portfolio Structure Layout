@@ -1,0 +1,33 @@
+ai-evaluation-portfolio/
+│
+├── README.md
+│
+├── 01_Safety_Evaluations/
+│   ├── safety_sample_01.md
+│   ├── safety_sample_02.md
+│   ├── safety_sample_03.md
+│   └── ...
+│
+├── 02_Annotation_Samples/
+│   ├── sentiment_classification.md
+│   ├── intent_classification.md
+│   ├── toxicity_detection.md
+│   ├── misinformation_detection.md
+│   ├── DQR_evaluations.md
+│   └── ...
+│
+├── 03_Prompt_Evaluations/
+│   ├── harmful_instructions.md
+│   ├── bias_and_fairness.md
+│   ├── hallucination_detection.md
+│   └── ...
+│
+├── 04_Writing_and_Rewrites/
+│   ├── rewrite_for_clarity.md
+│   ├── rewrite_for_safety.md
+│   └── ...
+│
+└── 05_Portfolio_Showcase/
+    ├── case_study_01.md
+    ├── case_study_02.md
+    └── ...
