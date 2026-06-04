@@ -55,5 +55,5 @@ Portfolio Sections
 Contact
 📍 Mississauga, Ontario
 📧 Available upon request
-🔗 LinkedIn: Add your link here  
-🔗 GitHub: Add your repo link here
+🔗 LinkedIn: : linkedin.com/in/liaquat-afridi-54a13b97
+🔗 GitHub: (https://github.com/Afridi730/AI---Evaluation-Portfolio/edit/main/README.md)
